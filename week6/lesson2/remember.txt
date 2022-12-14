@@ -1,0 +1,71 @@
+Вывод на экран
+    echo, print
+    print_r, var_dump
+Настройка php через php.ini или через ini_set
+    Директивы
+Переменные
+    Области видимости
+        Глобальная (global, $GLOBALS), локальная (внутри функции), статичная (static)
+    Именование - lowerCamelCase
+    empty, isset, unset
+    Типы
+        Целые (int), вещественные (float), строковые (string), логические (boolean), массивы (array), объекты (object), null, resource
+        Арифметические операторы
+        Инкремент и декремент - пост, пред
+        Логические операторы (&&, ||)
+        Сравнение: ==, !=, ===, !==, <, <=, >, >=
+        Приоритет оператора - скобки
+        Приведение типов
+        Проверка на типы - gettype, is_int, is_null, is_float, is_string...
+        Округление (round, ceil, floor) 3.345 -> 3.35
+        Генерирование случайных чисел (rand, mt_rand)
+Константы (const)
+    Магические: __FILE__, __LINE__
+Строки
+    Двойные кавычки (Интерполяция)
+    Одинарные кавычки
+    heredoc, nowdoc
+    Работа со строками
+        trim
+        Подстрока (substr)
+        Позиция строки внутри другой (strpos)
+        Смена регистра (верхний, нижний) (strtoupper, mb_strtoupper)
+Массивы
+    Многомерные, ассоциативные (['name' => 'Askar'])
+    Элементы, Индексы (ключи)
+    Обращение к конкретному элементу массива, в том числе многомерного
+    Кол-во элементов (count)
+    list
+        [$a, $b] = [1, 2]
+        list($a, $b) = [1, 2]
+    Обход массива циклом
+    Слияние
+    Сравнение array_diff
+    Проверка существования (key_exists)
+    Удаление элементов из массива
+    Сортировка - uasort
+    Фильтрация - array_filter
+    Деление на части - array_chunk
+Циклы
+    for
+    foreach ($arr as $index => $element) $element[0]
+    foreach ($arr as $index => [$a, $b]) $a
+Условия (if, elseif, else, switch)
+Дата - Unix time
+    Работы с датой и временем
+        time, date, mktime, strtotime, date_default_timezone_set
+Ошибки (бэктрейс)
+    Notice, Warning, Fatal
+Подключение файлов - include, include_once, require, require_once
+HTML/CSS
+    Bootstrap - css фреймворк
+    Форма
+        Атрибуты
+            action
+            method - get, post
+        Элементы формы: input[type=text, email, date], checkbox, radio, textarea, file, select, button
+        Переменные для обработки данных из форм - $_GET, $_POST, $_REQUEST
+        Работа с данными из формы - nl2br, strip_tags, htmlspecialchars, htmlentities
+Сессия - session_start, $_SESSION
+JSON
+    json_encode, json_decode, json_last_error
