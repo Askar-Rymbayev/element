@@ -23,7 +23,6 @@ $nameAndAges = [
 // Задачи с этим массивом:
 // 1.1 сделать сортировку по возрасту, молодые в начале массива
 // здесь ваш код
-//...
 //echo "<ul><li>" . implode("</li><li>", $nameAndAges) . "</li></ul><hr>";
 
 // 1.2 сделать сортировку по возрасту, молодые в конце массива
@@ -34,12 +33,12 @@ $nameAndAges = [
 // 1.3 сделать сортировку по имени, от A до Z
 // здесь ваш код
 //...
-//echo "<ul><li>" . implode("</li><li>", $nameAndAges) . "</li></ul><hr>";
+//echo "<ul><li>" . implode("</li><li>", array_keys($nameAndAges)) . "</li></ul><hr>";
 
 // 1.4 сделать сортировку по имени, от Z до A
 // здесь ваш код
 //...
-//echo "<ul><li>" . implode("</li><li>", $nameAndAges) . "</li></ul><hr>";
+//echo "<ul><li>" . implode("</li><li>", array_keys($nameAndAges)) . "</li></ul><hr>";
 
 //-------------------------------------------------------------
 
