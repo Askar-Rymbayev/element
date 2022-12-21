@@ -3,25 +3,26 @@
 вывести здесь то что пришло из формы (как угодно)
 не забудьте проверить isset
 */
+var_dump($_POST);
 
 ?>
 
 <!-- Задайте правильное название в атрибуте name, чтобы данные из этой формы отправились как массив -->
 <form method="post">
     <div>
-        Первый ученик:<br> ФИО: <input type="text" name="">
+        Первый ученик:<br> ФИО: <input type="text" name="student[]">
     </div>
     <hr>
     <div>
-        Второй ученик:<br> ФИО: <input type="text" name="">
+        Второй ученик:<br> ФИО: <input type="text" name="student[]">
     </div>
     <hr>
     <div>
-        Третий ученик:<br> ФИО: <input type="text" name="">
+        Третий ученик:<br> ФИО: <input type="text" name="student[]">
     </div>
     <hr>
     <div>
-        Четвертый ученик:<br> ФИО: <input type="text" name="">
+        Четвертый ученик:<br> ФИО: <input type="text" name="student[]">
     </div>
     <hr>
 
