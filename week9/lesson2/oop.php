@@ -18,12 +18,12 @@ class BaseClass
     }
 }
 
-$obj = new BaseClass();
+$obj = new oop();
 $obj->func1();
 //pre($obj::CONST_NAME);
 //pre(BaseClass::CONST_NAME);
 
-class ChildClass extends BaseClass
+class ChildClass extends oop
 {
     const CONST_NAME = '123';
     protected const PROT_CONST = 111;
